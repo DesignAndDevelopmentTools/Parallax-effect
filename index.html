@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Parallax effect </title>
+	<script src="js/jquery.min.js"></script>
+
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		header{
+			position: relative;
+			width: 100%;
+			height:100vh;
+			background-color: #333;
+			margin-bottom: 1000px;
+			overflow: hidden;
+		}
+		.header-bg{
+			position:absolute;
+			width:100%;
+			height:300%;
+			background-size: 200% 100%;
+			background-image: url('img/banner_parallax.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-top: 0px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header-bg"> </div>
+	</header>
+
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var scrollTop = $(this).scrollTop();
+			$('.header-bg').css('top', -(scrollTop * 2) + 'px');
+		})
+	</script>
+</body>
+</html>
