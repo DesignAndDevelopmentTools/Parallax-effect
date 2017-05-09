@@ -5,14 +5,14 @@
 
 1. Just write code (HTML):
 ```s
-<header>
+	<header>
 		<div class="header-bg"> </div>
 	</header>
 ```
 
 2. Just write code (CSS):
 ```s
-<style type="text/css">
+	<style type="text/css">
 		*{
 			margin: 0px;
 			padding: 0px;
@@ -30,7 +30,7 @@
 			width:100%;
 			height:300%;
 			background-size: 200% 100%;
-			background-image: url('img/Butwalcodergirls_banner_parallex.jpg');
+			background-image: url('img/banner_parallex.jpg');
 			background-repeat: no-repeat;
 			background-position: center center;
 			margin-top: 0px;
@@ -40,7 +40,7 @@
 
 3. Just write code (JavaScript):
 ```s
-<script type="text/javascript">
+	<script type="text/javascript">
 		$(window).scroll(function(){
 			var scrollTop = $(this).scrollTop();
 			$('.header-bg').css('top', -(scrollTop * 2) + 'px');
