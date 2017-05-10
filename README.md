@@ -3,14 +3,14 @@
 > Parallax effect using Jquery
 
 
-1. Just write code (HTML):
+> # 1. Just write code (HTML):
 ```s
 	<header>
 		<div class="header-bg"> </div>
 	</header>
 ```
 
-2. Just write code (CSS):
+> # 2. Just write code (CSS):
 ```s
 	<style type="text/css">
 		*{
@@ -38,7 +38,7 @@
 	</style>
 ```
 
-3. Just write code (JavaScript):
+> # 3. Just write code (JavaScript):
 ```s
 	<script type="text/javascript">
 		$(window).scroll(function(){
@@ -48,4 +48,4 @@
 	</script>
 ```
 
-4. Then view result in your Browser.
+> # 4. Then view result in your Browser.
